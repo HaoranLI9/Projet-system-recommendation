@@ -1,0 +1,9 @@
+{
+    "retrain": true,
+    "emb_dim": 8,
+    "N":2,
+    "t":2,
+    "epoch": 5,
+    "lr": 1e-3
+    
+}

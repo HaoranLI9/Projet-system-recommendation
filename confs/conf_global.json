@@ -1,0 +1,6 @@
+{
+    "dataset_name": "Kindle_Store",
+    "local_mode": true,
+    "maxLens": [50, 100, 150, 200],
+    "batch_size": 128
+}

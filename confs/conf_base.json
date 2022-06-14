@@ -1,0 +1,31 @@
+{
+    "feature_groups": {
+        "context_group": [
+            "context_unixReviewTime",
+            "context_itempos"
+        ],
+        "behaviour_group": [
+            "behaviour_itemId",
+            "behaviour_itemCat"
+        ],
+        "candidate_group": [
+            "candidate_itemId",
+            "candidate_itemCat"
+        ],
+        "userProfile_group": []
+    },
+    "retrain": true,
+    "runtime": {
+        "emb_dim": 32,
+        "weight_decay": 1e-5,
+        "epoch": 5,
+        "lr": 1e-3,
+        "dropout_p" : 0.5,
+        "use_attention": true,
+        "din_mlp_lin1" : 256,
+        "din_mlp_lin2" : 128,
+        "din_mlp_lin3" : 64,
+        "att_mlp_lin1": 80,
+        "att_mlp_lin2": 40
+    }
+}
